@@ -6,17 +6,38 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
 
 <!-- Badges (style "for-the-badge") -->
 <p>
+  <!-- Tech stack -->
   <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/DOCKER%20COMPOSE-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
   <img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/ROCKY%20LINUX%2010-10B981?style=for-the-badge&logo=linux&logoColor=white" alt="Rocky Linux 10" />
+  <img src="https://img.shields.io/badge/STACK-LAMP-3B82F6?style=for-the-badge" alt="Stack LAMP" />
   <br/>
+
   <img src="https://img.shields.io/badge/APACHE%20HTTPD-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache httpd" />
   <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/PHP%20FPM-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP-FPM" />
-  <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/STATUS-TP-22C55E?style=for-the-badge" alt="Status TP" />
+  <br/>
+
+  <!-- GitHub repo badges -->
+  <a href="https://github.com/Kaminokuri/TP-Docker-compose">
+    <img src="https://img.shields.io/badge/REPO-TP--Docker--compose-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" />
+  </a>
+  <a href="https://github.com/Kaminokuri/TP-Docker-compose/stargazers">
+    <img src="https://img.shields.io/github/stars/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Stars" />
+  </a>
+  <a href="https://github.com/Kaminokuri/TP-Docker-compose/forks">
+    <img src="https://img.shields.io/github/forks/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Forks" />
+  </a>
+  <a href="https://github.com/Kaminokuri/TP-Docker-compose/issues">
+    <img src="https://img.shields.io/github/issues/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Issues" />
+  </a>
+  <a href="https://github.com/Kaminokuri/TP-Docker-compose/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Last commit" />
+  </a>
 </p>
+
 
 </div>
 
