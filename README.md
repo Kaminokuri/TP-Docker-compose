@@ -12,6 +12,8 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
 - Code applicatif dans `src/`, monté dans le conteneur
 - Accès HTTP via le port **8080**
 
+<div align="center">
+
 <!-- Badges (style "for-the-badge") -->
 <p>
   <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
@@ -25,6 +27,8 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
   <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/STATUS-TP-22C55E?style=for-the-badge" alt="Status TP" />
 </p>
+
+</div>
 
 ---
 
