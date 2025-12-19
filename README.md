@@ -14,7 +14,7 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
 
 ---
 
-### 🛠️ **Technologies et Outils**
+## Technologies et Outils**
 
 <div align="center">
 
