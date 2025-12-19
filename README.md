@@ -4,6 +4,14 @@
 
 Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker Compose** sur **Rocky Linux 10**.
 
+</div>
+
+- **Apache** : image officielle `httpd:2.4`
+- **MySQL** : image officielle `mysql:8.0`
+- **PHP-FPM** : build via `php/Dockerfile` (PHP 8.3 + extension `mysqli`)
+- Code applicatif dans `src/`, monté dans le conteneur
+- Accès HTTP via le port **8080**
+
 <!-- Badges (style "for-the-badge") -->
 <p>
   <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
@@ -17,15 +25,6 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
   <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/STATUS-TP-22C55E?style=for-the-badge" alt="Status TP" />
 </p>
-
-
-</div>
-
-- **Apache** : image officielle `httpd:2.4`
-- **MySQL** : image officielle `mysql:8.0`
-- **PHP-FPM** : build via `php/Dockerfile` (PHP 8.3 + extension `mysqli`)
-- Code applicatif dans `src/`, monté dans le conteneur
-- Accès HTTP via le port **8080**
 
 ---
 
