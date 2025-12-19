@@ -1,6 +1,6 @@
 <div align="center">
 
-    # TP Docker Compose — Stack LAMP (Rocky Linux 10)
+# TP Docker Compose — Stack LAMP (Rocky Linux 10)
 
 Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker Compose** sur **Rocky Linux 10**.
 
