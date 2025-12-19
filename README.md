@@ -8,22 +8,15 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
 
 
 <p>
-  <img src="https://img.shields.io/badge/STATUS-TP-22C55E?style=for-the-badge" alt="Status TP" />
-  <a href="https://github.com/Kaminokuri/TP-Docker-compose">
-    <img src="https://img.shields.io/badge/REPO-TP--Docker--compose-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" />
-  </a>
-  <a href="https://github.com/Kaminokuri/TP-Docker-compose/commits/main">
-    <img src="https://img.shields.io/github/last-commit/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Last commit" />
-  </a>
+  <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/DOCKER%20COMPOSE-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
+  <img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/APACHE%20HTTPD-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache httpd" />
   <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/PHP%20FPM-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP-FPM" />
-  <img src="https://img.shields.io/badge/DOCKER%20COMPOSE-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
-  <img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/ROCKY%20LINUX%2010-10B981?style=for-the-badge&logo=linux&logoColor=white" alt="Rocky Linux 10" />
 </p>
 
