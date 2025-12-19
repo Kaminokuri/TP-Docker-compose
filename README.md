@@ -24,15 +24,6 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
   <a href="https://github.com/Kaminokuri/TP-Docker-compose">
     <img src="https://img.shields.io/badge/REPO-TP--Docker--compose-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" />
   </a>
-  <a href="https://github.com/Kaminokuri/TP-Docker-compose/stargazers">
-    <img src="https://img.shields.io/github/stars/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Stars" />
-  </a>
-  <a href="https://github.com/Kaminokuri/TP-Docker-compose/forks">
-    <img src="https://img.shields.io/github/forks/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Forks" />
-  </a>
-  <a href="https://github.com/Kaminokuri/TP-Docker-compose/issues">
-    <img src="https://img.shields.io/github/issues/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Issues" />
-  </a>
   <a href="https://github.com/Kaminokuri/TP-Docker-compose/commits/main">
     <img src="https://img.shields.io/github/last-commit/Kaminokuri/TP-Docker-compose?style=for-the-badge" alt="Last commit" />
   </a>
