@@ -1,0 +1,41 @@
+services:
+  apache:
+    image: httpd:2.4
+    container_name: apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html:Z
+      - ./apache/my-vhost.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf:Z
+    depends_on:
+      - php
+    command: >
+      /bin/sh -c "
+        sed -i 's/^#\(LoadModule proxy_module\)/\1/' /usr/local/apache2/conf/httpd.conf &&
+        sed -i 's/^#\(LoadModule proxy_fcgi_module\)/\1/' /usr/local/apache2/conf/httpd.conf &&
+        sed -i 's/^#Include conf\/extra\/httpd-vhosts.conf/Include conf\/extra\/httpd-vhosts.conf/' /usr/local/apache2/conf/httpd.conf &&
+        httpd-foreground
+      "
+
+  php:
+    build: ./php
+    container_name: php
+    volumes:
+      - ./src:/var/www/html:Z
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    container_name: db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: cesi
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
+    volumes:
+      - db_data:/var/lib/mysql:Z
+
+volumes:
+  db_data:
+
