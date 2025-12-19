@@ -4,17 +4,20 @@
 
 Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker Compose** sur **Rocky Linux 10**.
 
-<!-- Badges (optionnels) -->
+<!-- Badges (style "for-the-badge") -->
 <p>
-  <img src="https://img.shields.io/badge/Docker-Engine-blue" alt="Docker badge" />
-  <img src="https://img.shields.io/badge/Docker-Compose-blue" alt="Docker Compose badge" />
-  <img src="https://img.shields.io/badge/Stack-LAMP-blue" alt="LAMP badge" />
-  <img src="https://img.shields.io/badge/OS-Rocky%20Linux%2010-blue" alt="Rocky Linux badge" />
-  <img src="https://img.shields.io/badge/Apache-httpd%202.4-blue" alt="Apache badge" />
-  <img src="https://img.shields.io/badge/MySQL-8.0-blue" alt="MySQL badge" />
-  <img src="https://img.shields.io/badge/PHP-FPM%208.3-blue" alt="PHP badge" />
-  <img src="https://img.shields.io/badge/Status-TP-green" alt="Status badge" />
+  <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/DOCKER%20COMPOSE-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
+  <img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/ROCKY%20LINUX%2010-10B981?style=for-the-badge&logo=linux&logoColor=white" alt="Rocky Linux 10" />
+  <br/>
+  <img src="https://img.shields.io/badge/APACHE%20HTTPD-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="Apache httpd" />
+  <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PHP%20FPM-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP-FPM" />
+  <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/STATUS-TP-22C55E?style=for-the-badge" alt="Status TP" />
 </p>
+
 
 </div>
 
