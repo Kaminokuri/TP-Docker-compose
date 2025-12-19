@@ -1,6 +1,6 @@
 services:
   apache:
-    image: httpd:2.4
+    image: "httpd:2.4"
     container_name: apache
     ports:
       - "8080:80"
@@ -9,13 +9,14 @@ services:
       - ./apache/my-vhost.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf:Z
     depends_on:
       - php
-    command: >
-      /bin/sh -c "
-        sed -i 's/^#\(LoadModule proxy_module\)/\1/' /usr/local/apache2/conf/httpd.conf &&
-        sed -i 's/^#\(LoadModule proxy_fcgi_module\)/\1/' /usr/local/apache2/conf/httpd.conf &&
-        sed -i 's/^#Include conf\/extra\/httpd-vhosts.conf/Include conf\/extra\/httpd-vhosts.conf/' /usr/local/apache2/conf/httpd.conf &&
-        httpd-foreground
-      "
+    command:
+      - /bin/sh
+      - -c
+      - |
+          sed -i 's/^#LoadModule proxy_module modules\/mod_proxy.so/LoadModule proxy_module modules\/mod_proxy.so/' /usr/local/apache2/conf/httpd.conf
+          sed -i 's/^#LoadModule proxy_fcgi_module modules\/mod_proxy_fcgi.so/LoadModule proxy_fcgi_module modules\/mod_proxy_fcgi.so/' /usr/local/apache2/conf/httpd.conf
+          sed -i 's/^#Include conf\/extra\/httpd-vhosts.conf/Include conf\/extra\/httpd-vhosts.conf/' /usr/local/apache2/conf/httpd.conf
+          httpd-foreground
 
   php:
     build: ./php
@@ -26,13 +27,13 @@ services:
       - db
 
   db:
-    image: mysql:8.0
+    image: "mysql:8.0"
     container_name: db
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: cesi
-      MYSQL_USER: user
-      MYSQL_PASSWORD: user
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "cesi"
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "user"
     volumes:
       - db_data:/var/lib/mysql:Z
 
