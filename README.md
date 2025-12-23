@@ -39,7 +39,7 @@ Déploiement d’une stack **LAMP** (Linux + Apache + MySQL + PHP) avec **Docker
 
 ## Pré-requis
 
-Sur Rocky Linux 10 (ou toute distro Linux) :
+Sur Rocky Linux 10 (ou toute distrib Linux) :
 - Docker Engine
 - Docker Compose (plugin)
 - Git (optionnel, si tu veux cloner/push)
